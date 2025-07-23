@@ -15,7 +15,7 @@
     {
       "type": "data",
       "bom-ref": "quantum-data-100mb",
-      "name": "quantum_100MB_20250704_113811.bin",
+      "name": "sample_quantum_data.bin",
       "version": "1.0.0",
       "description": "100MB of quantum-generated random number data",
       "properties": [
