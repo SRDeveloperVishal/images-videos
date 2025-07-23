@@ -1,0 +1,25 @@
+{
+  "name": "quantum-rng-project",
+  "version": "1.0.0",
+  "description": "Quantum Random Number Generator with entropy validation",
+  "main": "src/quantum_rng_handler.py",
+  "scripts": {
+    "validate": "python3 src/quantum_rng_handler.py",
+    "test-java": "javac src/qrng_validator.java && java -cp src com.quantum.rng.QRNGValidator"
+  },
+  "keywords": [
+    "quantum",
+    "qrng",
+    "entropy",
+    "cryptography",
+    "qkd",
+    "bb84"
+  ],
+  "author": "Quantum Crypto Team",
+  "license": "MIT",
+  "cryptography": {
+    "entropy_sources": ["QRNG"],
+    "protocols": ["BB84"],
+    "compliance": ["NIST SP 800-22"]
+  }
+}
